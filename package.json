@@ -1,0 +1,21 @@
+{
+  "name": "pairgame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nikita koptsov",
+  "license": "ISC",
+  "eslintConfig": {
+    "extends": ["airbnb-base", "prettier"],
+    "globals": { "document": true, "window": true, "XMLHttpRequest": true }
+  },
+  "devDependencies": {
+    "eslint": "^4.18.2",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "prettier": "^1.11.1"
+  }
+}
